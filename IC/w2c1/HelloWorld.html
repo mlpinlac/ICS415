@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+  <header align="center" width="100%" style="border: 1px solid black">
+    <font size="20px" style="padding-bottom: -10px">HELLO WORLD!</font>
+    <br>
+    <em class="paper">Welcome to my website</em>
+    <br>
+  </header>
+  <nav width="100%" style="border: 1px solid black">
+    <font size="5px">NAVBAR: <a href = "www.google.com">Google</a> | <a href = "www.facebook.com">Facebook</a> | <a href = "http://laulima.hawaii.edu">Laulima</a></font>
+  </nav>
+
+  <aside style="position: absolute; height: 100%; border: 1px solid black">
+    <h3>CANVAS</h3>
+    <canvas id = "testCanvas" width="200" height="100" style = "border: 1px solid black">
+    </canvas>
+
+    <h4>SVG SHAPES</h4>
+    <svg width="100" height="100" style="position: absolute">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="yellow" />
+    </svg>
+    <svg width="400" height="180">
+      <rect x="50" y="20" rx="20" ry="20" width="100" height="100"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+  </aside>
+
+  <section id="content" style="border: 1px solid black; margin-left: 410px; width: auto">
+    <h1>CONTENT</h1>
+
+    <section id="lists">
+      <header>
+        <h4>This is my unordered list:</h4>
+      </header>
+
+        <ul>
+          <li>ul #1</li>
+          <li>ul #2</li>
+          <li>ul #3</li>
+        </ul>
+
+      <header>
+        <h4>This is my ordered list of classes im taking:</h4>
+      </header>
+
+      <ol>
+        <li>ICS 315</li>
+        <li>ICS 415</li>
+        <li>ICS 332</li>
+        <li>AMST 349</li>
+      </ol>
+
+    </section>
+
+    <h4>FORMS:</h4>
+    <p>The following is a text input:</p>
+    <form action="HelloWorld.html" method="GET">
+      Username: <input type = "text" name="username">
+    </form>
+    <p>Then a password input:</p>
+    <form action="HelloWorld.html" method="GET">
+      Password: <input type = "text" name="password">
+    </form>
+    <br>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <form action="HelloWorld.html" method="get"><input type="submit" value="Submit"></form>
+    </form>
+
+  </section>
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+/*
+  *
+  * THIS LAYOUTS.CSS DOCUMENT IS USED FOR HELLOWORLD.HTML & FORMS.HTML
+  *
+*/
+
+body {
+  background-image: url("repeating-left.png");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  font-family: 'Asap', sans-serif;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: #aaffec;
+}
+
+#container{
+  height: 100%;
+  width: 100%;
+}
+
+/* Header is 1/4 of page height */
+#header th
+{
+  background-color: #ffc3f6;
+  height: 25%;
+  opacity: .7;
+  align-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+/* Navbar is 50px high */
+#navbar {
+  background-color:#7a7a7a;
+  width: auto;
+  height: 50px;
+  opacity: .8;
+  alignment: center;
+  margin: 0px;
+}
+
+/* leftcolumn (sidebar) width is 1/4 of page width */
+#leftcolumn {
+  background-color:#aaffec;
+  opacity: 0.7;
+  align-content: center;
+  width: 25%;
+  border: 1px solid black;
+}
+
+#leftcolumn h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
+}
+
+#content {
+  background-color:#aaffec;
+  opacity: 0.7;
+  border: 1px solid black;
+  width: 75%;
+}
+
+#content h1{
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#lists{
+  list-style-type: decimal;
+}
+
+/* footer is 50px high */
+#footer
+{
+  background-color: #ffc3f6;
+  height: 50px;
+  opacity: .7;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}

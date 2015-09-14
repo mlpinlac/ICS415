@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michelle's Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <!-- Optional theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Personal CSS & fonts -->
+  <link href="layouts.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+
+  <!-- Javascript Document here -->
+  <script src="script.js"></script>
+</head>
+<body>
+
+
+<!-- Bootstrap class -->
+<div class="page-header">
+  <h1 id="site-logo">BOOTSTRAP WEBSITE</h1>
+</div>
+
+<div class="container-fluid">
+
+  <table id="layout">
+    <tr id="navbar">
+      <td>
+        <!-- Bootstrap class -->
+        <nav class="navbar navbar-default">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="#">TWO</a></li>
+            <li><a href="#">THREE</a></li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+  </table>
+
+  <table height="100%">
+    <tr>
+      <td id="leftcolumn" align="center">
+
+
+        <!-- Bootstrap class -->
+        <div class="row">
+          <div class="col-sm-4 text-left">
+            <h3 class="text-left">ON CLICK</h3>
+            <br>
+            <p>This example demonstrates how to assign "onclick" event</p>
+            <br>
+            <h4 id="onclickevent" onclick="clickFunction()">Click here.</h4>
+            <input type="button" id="button" value="button" style="color: black" onclick="setColor('button', '#101010')";/>
+          </div>
+
+          <!-- Bootstrap class -->
+          <div class="col-sm-4 text-left">
+            <h3 class="text-left">ON MOUSE ENTER</h3>
+            <br>
+            Mouse over the heart enlargen it. <br><br>
+            <img onmouseenter="bigImg(this)" border="0" src="heart.png" alt="Smiley" width="32" height="32">
+            <br>
+            <br>
+          </div>
+
+          <!-- Bootstrap class -->
+          <div class="col-sm-4 text-left">
+            <h3 class="text-left">ON MOUSE LEAVE</h3>
+            <br>
+            Mouse over heart to enlargen it, move your mouse off to shrink it back to size.
+            <br><br>
+            <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="heart.png" alt="Smiley" width="32" height="32">
+            <br><br>
+          </div>
+
+        </div>
+
+    </tr>
+  </table>
+
+</div>
+
+
+<table width="100%">
+  <td id="footer" colspan="2" align="center">Copyright (C) Michelle Pinlac</td>
+</table>
+
+</body>
+</html>

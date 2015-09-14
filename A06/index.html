@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michelle's Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <!-- Optional theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Personal CSS & fonts -->
+  <link href="layouts.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Bootstrap class -->
+<div class="page-header">
+  <h1 id="site-logo">MICHELLE'S WEBSITE BUILT WITH <em class="white">BOOTSTRAP</em></h1>
+</div>
+
+<div class="container-fluid">
+
+  <table id="layout">
+    <tr id="navbar">
+      <td>
+        <!-- Bootstrap class -->
+        <nav class="navbar navbar-default">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="#">TWO</a></li>
+            <li><a href="#">THREE</a></li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+  </table>
+
+  <table height="100%">
+    <tr>
+      <td id="leftcolumn" align="center">
+
+        <!-- Bootstrap class -->
+        <!--- Sidebar should be 1/4 page width, so used col-sm-3 -->
+        <div class="row">
+          <div class="col-sm-3 text-left">
+            <h3 class="text-left">SIDEBAR</h3>
+            <br>
+            This site continues off of previous assignments but
+            uses many Boostrap classes to style multiple elements such as:<br><br>
+            Grid System, header, navbar, table-responsive, table-bordered, & many more. All located inside the bootstrap.css file.
+            <br><br>
+            Also includes Google Fonts & I also played around with Font Awesome by adding some icons.
+          </div>
+
+          <!-- Bootstrap class -->
+          <div class="col-sm-9 text-left">
+            <h3 class="text-left">MAIN CONTENT</h3>
+            <br>
+            <table class="table-responsive">
+              Tables:
+              <caption>Borderless Table</caption>
+              <tr>
+                <th>Header 1</th>
+              </tr>
+              <tr>
+                <td>Row 1, Col 1</td>
+              </tr>
+            </table>
+
+            <!-- Bootstrap class -->
+            <table class="table-bordered">
+              <caption>Bordered Table</caption>
+              <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+              </tr>
+              <tr>
+                <td>Row 1, Col 1</td>
+                <td>Row 1, Col 2</td>
+              </tr>
+              <tr>
+                <td>Row 2, Col 1</td>
+                <td>Row 2, Col 2</td>
+              </tr>
+              <tfoot>
+              <td>Footer 1</td>
+              <td>Footer 2</td>
+              </tfoot>
+            </table>
+            <br>
+            <p>This web page has a two column layout with header, navigation bar, and footer. There is a fairly large header, narrow navigation bar.<br>The main section of the website takes up to 75% of the page. The left sidebar is center aligned.</p>
+            <br>
+            <h4>Font Awesome icons:</h4>
+            <i class="fa fa-tripadvisor fa-2x"></i>
+            <i class="fa fa-amazon fa-2x"></i>
+            <i class="fa fa-vimeo fa-2x"></i>
+            <i class="fa fa-safari fa-2x"></i>
+            <i class="fa fa-wikipedia-w fa-2x"></i>
+            <br><br>
+          </div>
+        </div>
+
+    </tr>
+  </table>
+
+</div>
+
+
+<table width="100%">
+  <td id="footer" colspan="2" align="center">Copyright (C) Michelle Pinlac</td>
+</table>
+
+</body>
+</html>

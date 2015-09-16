@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <!-- Optional theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script>
+    function init() {
+      var mystuff = localStorage.getItem("username");
+      document.write("passed value =" + username);
+    }
+  </script>
+
+  <title></title>
+</head>
+<body onload="init()">
+<p>process.html page..</p>
+<br>
+<button onclick="goBack()" class="btn btn-info">BACK</button>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michelle's Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <!-- Optional theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Personal CSS & fonts -->
+  <link href="layouts.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("#hidediv").hide();
+      });
+    });
+
+    $(document).ready(function(){
+      $("#show").click(function(){
+        $("#hidediv").show();
+      });
+    });
+
+   $(document).ready(function(){
+     $("#load").click(function(event) {
+       $('#loadcontent').load('result.html');
+     });
+   });
+  </script>
+
+</head>
+<body>
+
+
+<!-- Bootstrap class -->
+<div class="page-header">
+  <h1 id="site-logo">BOOTSTRAP WEBSITE w/ jQuery animations & AJAX calls</h1>
+</div>
+
+<div class="container-fluid">
+
+  <table id="layout">
+    <tr id="navbar">
+      <td>
+        <!-- Bootstrap class -->
+        <nav class="navbar navbar-default">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="#">TWO</a></li>
+            <li><a href="#">THREE</a></li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+  </table>
+
+  <table height="100%">
+    <tr>
+      <td id="leftcolumn" align="center">
+
+
+        <!-- Bootstrap class -->
+        <div class="row">
+          <div id="hidediv" class="col-sm-4 text-left">
+            <h3 class="text-left">HIDE</h3>
+            Click the button to hide this div.<br>
+            <button id="hide">HIDE</button>
+          </div>
+
+          <!-- Bootstrap class -->
+          <div class="col-sm-4 text-left">
+            <h3 class="text-left">SHOW</h3>
+            Click the button to show the div again.<br>
+            <button id="show">SHOW</button>
+            <br>
+            <br>
+          </div>
+
+          <!-- Bootstrap class -->
+          <div id="loadcontent" class="col-sm-4 text-left">
+            <h3 class="text-left">LOAD (AJAX)</h3>
+           Click on the button to load content from an external source.<br>
+            <button id="load">LOAD</button>
+          </div>
+
+        </div>
+
+    </tr>
+  </table>
+
+</div>
+
+
+<table width="100%">
+  <td id="footer" colspan="2" align="center">Copyright (C) Michelle Pinlac</td>
+</table>
+
+</body>
+</html>
